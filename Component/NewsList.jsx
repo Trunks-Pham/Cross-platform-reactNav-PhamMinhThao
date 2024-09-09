@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview'; // Import WebView
-import { newsData } from '../content'; // Đảm bảo đường dẫn đúng
+import { newsData } from '../content';
 
 const NewsList = () => {
   const renderItem = ({ item }) => (
